@@ -44,7 +44,7 @@ public class FindLoopTest {
     }
 
     @Test
-    public void whenArrayNotExistWithInterval() {
+    public void whenArrayHasNot7WithinIntervalThenMinus1() {
         int[] data = new int[] {5, 2, 10, 2, 4};
         int el = 7;
         int start = 2;
