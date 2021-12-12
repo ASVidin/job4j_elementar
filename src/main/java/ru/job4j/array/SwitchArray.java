@@ -16,6 +16,12 @@ public class SwitchArray {
         return array;
     }
 
+    public static String[] swapNull(String[] array, int source, int dest) {
+        array[source] = array[dest];
+        array[dest] = null;
+        return array;
+    }
+
     public static int[] swapBorder(int[] array) {
         int temp = array[0];
         array[0] = array[array.length - 1];
