@@ -13,7 +13,6 @@ public class Factorial {
 
     public static String collect(String s) {
         StringBuilder result = new StringBuilder(String.valueOf(s.charAt(0)));
-
         for (int i = 1; i < s.length(); i++) {
             if (s.charAt(i) == ' ') {
                 result.append(s.charAt(i + 1));

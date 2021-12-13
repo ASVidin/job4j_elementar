@@ -9,7 +9,6 @@ public class UsageHashSet {
         autos.add("Toyota");
         autos.add("BMW");
         autos.add("Volvo");
-
         for (String car: autos) {
             System.out.println(car);
         }
