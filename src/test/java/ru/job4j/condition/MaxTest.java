@@ -32,4 +32,25 @@ public class MaxTest {
         int expected = 3;
         assertEquals(expected, result);
     }
+
+    @Test
+    public void whenFirst3Second4Third1then4() {
+        int first = 3;
+        int second = 4;
+        int third = 1;
+        int result = Max.max(first, second, third);
+        int expected = 4;
+        assertEquals(expected, result);
+    }
+
+    @Test
+    public void whenFirst5Second7Third8Forth2then8() {
+        int first = 5;
+        int second = 7;
+        int third = 8;
+        int forth = 2;
+        int result = Max.max(first, second, third, forth);
+        int expected = 8;
+        assertEquals(expected, result);
+    }
 }
